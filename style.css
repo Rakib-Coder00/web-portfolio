@@ -1,10 +1,28 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* box-sizing: border-box; */
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    /* margin-bottom: 150px; */
+}
+.top-banner{
+    background: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orange;
 }
 
@@ -12,8 +30,55 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
+    padding-left: 2%;
+    /* overflow: hidden; */
 }
 
 .half-width img{
-    width: 100%;
+    width: 60%;
+}
+.link-btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream-area{
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-expreience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+
+.experience-area{
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h2{
+    text-align: center;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
 }
